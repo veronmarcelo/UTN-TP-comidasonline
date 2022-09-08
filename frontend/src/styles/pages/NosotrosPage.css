@@ -1,0 +1,82 @@
+/* ----------------------------------------------PAGE NOSOTROS ---------------------------------------- */
+body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* ---------------------------------------------HISTORIA */
+
+.historia {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.historia p {
+    font-size: 16px;
+    padding-left: 5px;
+    background-color: coral;
+    border: white;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+
+/*  --------------------------------------------STAFF */
+
+.staff {
+    padding-left: 15px;
+}
+
+.staff h2 {
+    font-size: 25px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid black;
+}
+
+.persona img {
+    border-radius: 20%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.892);
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: 200;
+    color: rgb(57, 54, 48);
+    letter-spacing: 2px;
+}
+
+.persona h5 {
+    font-size: 16px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.persona p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 5px;
+    background-color: coral;
+    border-radius: 10px;
+    margin: 4px;
+    letter-spacing: 2px;
+}

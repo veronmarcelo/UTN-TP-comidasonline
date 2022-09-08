@@ -1,0 +1,90 @@
+
+/* ---------------------------------------------HEADER */
+
+header {
+    background-color: rgb(249, 167, 137);
+    padding: 16px 0;
+}
+
+header img {
+    background: fixed;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+
+/* ---------------------------------------------NAV */
+
+nav {
+    background-color: rgba(255, 0, 51, 0.892);
+    margin-bottom: 20px;
+    border: rgb(255, 255, 255) 2px solid;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: flex;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    transition: 0.3s;
+    background-color: rgb(255, 118, 118);
+    color: black;
+}
+
+nav ul li a.activo {
+    background-color: rgb(249, 167, 137);
+}
+
+
+/* --------------------------------------------MAIN */
+
+h2 {
+    color: black;
+    font-weight: 400;
+}
+
+h2 p {
+    color: rgb(102, 0, 0);
+}
+
+
+/* --------------------------------------------FOOTER */
+
+footer {
+    background-color: rgba(207, 207, 207, 0.892);
+    clear: both;
+    color: rgb(255, 90, 123);
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+    border-bottom: 3px solid black;
+    border-top: 2px solid black;
+}

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h4>Agregar un nuevo menu</h4>
+            <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+                 <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Menu" name="menu">
+                </div>
+                 <div class="mb-3 row">
+                    <textarea type="text" class="form-control" placeholder="Ingredientes" name="ingredientes"></textarea>
+                </div>
+                 <div class="mb-3 row">
+                    <textarea type="text" class="form-control" placeholder="Detalles" name="detalles"></textarea>
+                </div>
+                <div class="mb-3 row">
+                    <label>Imagen: <input type="file" class="form-control" name="imagen" id="imagen"/></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Cargar menu!</button>
+                <a class="btn btn-secondary" href="/admin/novedades">Volver</a>
+                
+            </form>
+            {{#if error}}
+                <P>{{message}}</P>
+            {{/if}}
+        </div>
+    </div>
+</div>

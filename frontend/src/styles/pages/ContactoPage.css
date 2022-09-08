@@ -1,0 +1,61 @@
+/* -----------------------------------------------PAGE CONTACTO ------------------------------------ */
+
+.contacto {
+    display: flex;
+    width: 100%;
+}
+
+.contacto div {
+    width: 100%;
+    display:inline-flexbox;
+}
+
+.datos {
+    display: block;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+    margin-left: 20px;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: chocolate;
+    box-shadow: 0 0 10px chocolate;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario p:hover {
+    transition: 0.5s;
+    color: rgb(252, 35, 35);
+}
+
+.formulario input:hover {
+    transition: 0.5s;
+    color: rgb(252, 35, 35);
+}

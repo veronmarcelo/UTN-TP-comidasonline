@@ -1,0 +1,96 @@
+/* ---------------------------------PAGE INDEX ------------------------------------------------ */
+
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+    width: 100%;   
+}
+
+
+/* ---------------------------------------------HEADER */
+
+header {
+    background-color: rgb(249, 167, 137);
+    padding: 16px 0;
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+header img {
+    background: fixed;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    display: inline-block;
+    position: center;
+    bottom: 35px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+header h2 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/* --------------------------------------------FOOTER */
+
+footer {
+    background-color: rgba(207, 207, 207, 0.892);
+    clear: both;
+    color: rgb(255, 90, 123);
+    margin-top: 10px;
+    font-weight: 200;
+    border-bottom: 3px solid black;
+    border-top: 2px solid black;
+    
+}
+footer p {
+    text-align: center;
+    font-weight: 300;
+    
+
+}
+
+/* ------------------------------------------------SECCION NOVEDADES*/
+
+
+/* -------------------------opciones principales*/ 
+.opcionesprincipales{
+    padding: 5px;
+    text-align:right;    
+}
+
+/* -------------------------textos, imagenes, fondo*/
+
+h3 {
+    background-color:rgb(249, 167, 137);
+    padding: 5px;
+    border-radius: 5px;
+}
+/* ------------------------- tabla*/ 
+
+.tablanovedades img {
+    border: 2px solid black;
+}
+
+/* ------detalles de la tabla */
+a {
+    margin: 5px;
+}
+
+td {
+    font-weight:600;
+}
+

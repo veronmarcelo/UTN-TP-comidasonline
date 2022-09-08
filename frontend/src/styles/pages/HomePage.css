@@ -1,0 +1,48 @@
+/* ---------------------------------------------ESTILOS SECCION HOME */
+
+
+#burger {
+    align-content: center;
+    width: 40%;
+    align-items: center;
+}
+
+.bienvenidos {
+    width: 60%;
+    box-sizing: border-box;
+    background-color: rgb(255, 207, 87);
+    border-radius: 20px;
+    text-align: left;
+    padding: 0px 10px 10px 20px;
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+.testimonios {
+    width: 30%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.testimonios {
+    background-color: rgb(255, 207, 87);
+    padding: 16px;
+    border-radius: 20px;
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+.testimonio .cita {
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    margin: 12px 0;
+}

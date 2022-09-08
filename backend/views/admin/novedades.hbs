@@ -1,0 +1,50 @@
+<div class="container">
+    {{!-- Fila 1 --}}
+    <div class="opcionesprincipales">
+        <p> Bienvenido {{persona}} <a class="btn btn-danger" href="/admin/login/logout">Cerrar Sesion <i class="fas fa-sign-out-alt"></i></a></p>
+    </div>
+    {{!-- fin fila 1 --}}
+    {{!-- Inicio fila 2 --}}
+    <div class="row">
+        <div class="col-4">
+            <h3>Control de menu semanal</h3>
+        </div>
+        <div class="btnnuevo">
+            <a class="btn btn-success" href="/admin/novedades/agregar"> <i class="fa fa-plus" aria-hidden="true"></i>  Nuevo</a>
+        </div>
+    </div>
+    {{!-- Fin fila 2 --}}
+    {{!-- Inicio fila 3 --}}
+    <div class="tablanovedades">
+        <div class="col">
+            <table class="table table-striped">
+                <thead>
+                    <tr class="table-dark">
+                        <th scope="col">#</th>
+                        <th scope="col">Menu</th>
+                        <th scope="col">Ingredientes</th>
+                        <th scope="col">Detalles</th>
+                        <th scope="col">Imagen</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <th scope="row">{{id}}</th>
+                        <td>{{menu}}</td>
+                        <td>{{ingredientes}}</td>
+                        <td>{{detalles}}</td>
+                        <td>{{{imagen}}}</td>
+                        <td class="text-end">
+                            <a class="btn btn-warning" href="/admin/novedades/modificar/{{id}}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                            <a class="btn btn-danger" href="/admin/novedades/eliminar/{{id}}"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {{!-- Fin fila 3 --}}
+</div>
